@@ -13,15 +13,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bar{
+  background-color:red;
+  margin: 0 auto;
+  height:30px;
+  width: calc(100% - 300px);
+}
+
+.bar__header {
+  position: sticky;
+  top:0px;
+
+}
+
+.bar__footer {
+  position:fixed;
+  left: 150px;
+  bottom:0px
+}
+
+.content {
+  height:80px
 }
 
 .App-link {
